@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ece7c6;
+    min-height: 100vh; 
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.gallery-container {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+    width: 80px;
+    background-color: bisque;
+}
+
+#imageGallery {
+    position: relative;
+    max-width: 58%;
+    max-height: 200px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: opacity 0.3s;
+}
+
+#imageGallery:hover {
+    opacity: 0.8; 
+}
